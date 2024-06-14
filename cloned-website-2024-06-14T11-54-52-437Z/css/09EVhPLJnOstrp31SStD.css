@@ -1,0 +1,50 @@
+
+      
+      @font-face { 
+        font-family: 'bebas_neu'; 
+        src: url('../fonts/bebas_neu.ttf'); 
+      } 
+      .font-title, .hover-title:hover, .after-title:after, .before-title:before {
+        font-family: 'bebas_neu' !important; 
+      }
+      
+      @font-face { 
+        font-family: 'photograph'; 
+        src: url('../fonts/photograph.ttf'); 
+      } 
+      .font-additional, .hover-additional:hover, .after-additional:after, .before-additional:before {
+        font-family: 'photograph' !important; 
+      }
+      
+      @font-face { 
+        font-family: 'forum'; 
+        src: url('../fonts/forum.ttf'); 
+      } 
+      .font-content,.hover-content:hover, .after-content:after, .before-content:before {
+        font-family: 'forum' !important; 
+      }
+      .content-layout p, 
+      .also_invite,
+      #also_inviting li,
+      .content-layout p b, 
+      .content-layout a, 
+      .content-layout .form-control, 
+      .content-layout button, 
+      #welcome p,
+      #welcome p b,
+      #welcome button,
+      .modal-body p, 
+      .modal-body label, 
+      .modal-body p, 
+      .modal-body b { 
+        font-family: 'forum' !important; 
+      }
+       
+      #cover p, #cover h3, #cover h1 {
+        color: #ffffff;
+      }
+      #cover span i {
+        background: #ffffff !important;
+      }
+      .color-primary, .hover-color-primary:hover, .after-color-primary:after, .before-color-primary:before, .focus-color-primary:focus {color:#f5ece3 !important}.background-primary, .hover-background-primary:hover, .after-background-primary:after, .before-background-primary:before, .focus-background-primary:focus {background-color:#f5ece3 !important}.background-transparent-primary, .hover-background-transparent-primary:hover, .after-background-transparent-primary:after, .before-background-transparent-primary:before, .focus-background-transparent-primary:focus {background-color:rgba(245,236,227,0.2) !important}.border-primary, .hover-border-primary:hover, .after-border-primary:after, .before-border-primary:before, .focus-border-primary:focus {border-color:#f5ece3 !important}.borders-primary, .hover-borders-primary:hover, .after-borders-primary:after, .before-borders-primary:before, .focus-borders-primary:focus {border-color:#f5ece3 !important}.fill-primary, .hover-fill-primary:hover, .after-fill-primary:after, .before-fill-primary:before, .focus-fill-primary:focus {fill:#f5ece3 !important}.stroke-primary, .hover-stroke-primary:hover, .after-stroke-primary:after, .before-stroke-primary:before, .focus-stroke-primary:focus {stroke:#f5ece3 !important}.color-secondary, .hover-color-secondary:hover, .after-color-secondary:after, .before-color-secondary:before, .focus-color-secondary:focus {color:#d9ccc3 !important}.background-secondary, .hover-background-secondary:hover, .after-background-secondary:after, .before-background-secondary:before, .focus-background-secondary:focus {background-color:#d9ccc3 !important}.background-transparent-secondary, .hover-background-transparent-secondary:hover, .after-background-transparent-secondary:after, .before-background-transparent-secondary:before, .focus-background-transparent-secondary:focus {background-color:rgba(217,204,195,0.2) !important}.border-secondary, .hover-border-secondary:hover, .after-border-secondary:after, .before-border-secondary:before, .focus-border-secondary:focus {border-color:#d9ccc3 !important}.borders-secondary, .hover-borders-secondary:hover, .after-borders-secondary:after, .before-borders-secondary:before, .focus-borders-secondary:focus {border-color:#d9ccc3 !important}.fill-secondary, .hover-fill-secondary:hover, .after-fill-secondary:after, .before-fill-secondary:before, .focus-fill-secondary:focus {fill:#d9ccc3 !important}.stroke-secondary, .hover-stroke-secondary:hover, .after-stroke-secondary:after, .before-stroke-secondary:before, .focus-stroke-secondary:focus {stroke:#d9ccc3 !important}.color-third, .hover-color-third:hover, .after-color-third:after, .before-color-third:before, .focus-color-third:focus {color:#282828 !important}.background-third, .hover-background-third:hover, .after-background-third:after, .before-background-third:before, .focus-background-third:focus {background-color:#282828 !important}.background-transparent-third, .hover-background-transparent-third:hover, .after-background-transparent-third:after, .before-background-transparent-third:before, .focus-background-transparent-third:focus {background-color:rgba(40,40,40,0.2) !important}.border-third, .hover-border-third:hover, .after-border-third:after, .before-border-third:before, .focus-border-third:focus {border-color:#282828 !important}.borders-third, .hover-borders-third:hover, .after-borders-third:after, .before-borders-third:before, .focus-borders-third:focus {border-color:#282828 !important}.fill-third, .hover-fill-third:hover, .after-fill-third:after, .before-fill-third:before, .focus-fill-third:focus {fill:#282828 !important}.stroke-third, .hover-stroke-third:hover, .after-stroke-third:after, .before-stroke-third:before, .focus-stroke-third:focus {stroke:#282828 !important}.color-fourth, .hover-color-fourth:hover, .after-color-fourth:after, .before-color-fourth:before, .focus-color-fourth:focus {color:#948c89 !important}.background-fourth, .hover-background-fourth:hover, .after-background-fourth:after, .before-background-fourth:before, .focus-background-fourth:focus {background-color:#948c89 !important}.background-transparent-fourth, .hover-background-transparent-fourth:hover, .after-background-transparent-fourth:after, .before-background-transparent-fourth:before, .focus-background-transparent-fourth:focus {background-color:rgba(148,140,137,0.2) !important}.border-fourth, .hover-border-fourth:hover, .after-border-fourth:after, .before-border-fourth:before, .focus-border-fourth:focus {border-color:#948c89 !important}.borders-fourth, .hover-borders-fourth:hover, .after-borders-fourth:after, .before-borders-fourth:before, .focus-borders-fourth:focus {border-color:#948c89 !important}.fill-fourth, .hover-fill-fourth:hover, .after-fill-fourth:after, .before-fill-fourth:before, .focus-fill-fourth:focus {fill:#948c89 !important}.stroke-fourth, .hover-stroke-fourth:hover, .after-stroke-fourth:after, .before-stroke-fourth:before, .focus-stroke-fourth:focus {stroke:#948c89 !important}.color-fifth, .hover-color-fifth:hover, .after-color-fifth:after, .before-color-fifth:before, .focus-color-fifth:focus {color:#FFFFFF !important}.background-fifth, .hover-background-fifth:hover, .after-background-fifth:after, .before-background-fifth:before, .focus-background-fifth:focus {background-color:#FFFFFF !important}.background-transparent-fifth, .hover-background-transparent-fifth:hover, .after-background-transparent-fifth:after, .before-background-transparent-fifth:before, .focus-background-transparent-fifth:focus {background-color:rgba(255,255,255,0.2) !important}.border-fifth, .hover-border-fifth:hover, .after-border-fifth:after, .before-border-fifth:before, .focus-border-fifth:focus {border-color:#FFFFFF !important}.borders-fifth, .hover-borders-fifth:hover, .after-borders-fifth:after, .before-borders-fifth:before, .focus-borders-fifth:focus {border-color:#FFFFFF !important}.fill-fifth, .hover-fill-fifth:hover, .after-fill-fifth:after, .before-fill-fifth:before, .focus-fill-fifth:focus {fill:#FFFFFF !important}.stroke-fifth, .hover-stroke-fifth:hover, .after-stroke-fifth:after, .before-stroke-fifth:before, .focus-stroke-fifth:focus {stroke:#FFFFFF !important}.color-sixth, .hover-color-sixth:hover, .after-color-sixth:after, .before-color-sixth:before, .focus-color-sixth:focus {color:#FFFFFF !important}.background-sixth, .hover-background-sixth:hover, .after-background-sixth:after, .before-background-sixth:before, .focus-background-sixth:focus {background-color:#FFFFFF !important}.background-transparent-sixth, .hover-background-transparent-sixth:hover, .after-background-transparent-sixth:after, .before-background-transparent-sixth:before, .focus-background-transparent-sixth:focus {background-color:rgba(255,255,255,0.2) !important}.border-sixth, .hover-border-sixth:hover, .after-border-sixth:after, .before-border-sixth:before, .focus-border-sixth:focus {border-color:#FFFFFF !important}.borders-sixth, .hover-borders-sixth:hover, .after-borders-sixth:after, .before-borders-sixth:before, .focus-borders-sixth:focus {border-color:#FFFFFF !important}.fill-sixth, .hover-fill-sixth:hover, .after-fill-sixth:after, .before-fill-sixth:before, .focus-fill-sixth:focus {fill:#FFFFFF !important}.stroke-sixth, .hover-stroke-sixth:hover, .after-stroke-sixth:after, .before-stroke-sixth:before, .focus-stroke-sixth:focus {stroke:#FFFFFF !important}
+      

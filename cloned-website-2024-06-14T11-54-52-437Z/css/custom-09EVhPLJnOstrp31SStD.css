@@ -1,0 +1,21 @@
+#rundown .img-rundown .img-wrap img{
+width: 100%
+}
+
+.countdown-title .title-child, .story-title .title-child, .title-gallery h1 .title-child{
+line-height: 2 !important;
+font-size: 30px !important;
+margin-top: -2.5rem !important;
+}
+
+#rundown .wrapperRsvp .text-center .btn{
+display: none;
+}
+
+#rundown {
+z-index: 1;
+}
+
+#rundown .rsvp .photoCollage .photo-wrap.first img{
+width: 100%;
+}
