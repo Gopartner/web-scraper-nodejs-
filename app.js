@@ -2,6 +2,7 @@ import scrape from 'website-scraper';
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { SingleBar, Presets } from 'cli-progress';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -21,8 +22,30 @@ const options = {
   }
 };
 
+// Initialize the progress bar
+const progressBar = new SingleBar({
+  format: 'Cloning Website |{bar}| {percentage}% || {value}/{total} Files',
+  barCompleteChar: '\u2588',
+  barIncompleteChar: '\u2591',
+  hideCursor: true
+}, Presets.shades_classic);
+
+console.log('Starting the cloning process...');
+
+// Mock progress for demonstration
+let totalFiles = 100;
+progressBar.start(totalFiles, 0);
+
+let interval = setInterval(() => {
+  progressBar.increment();
+  if (progressBar.value >= totalFiles) {
+    clearInterval(interval);
+  }
+}, 100); // Adjust this interval to simulate realistic progress
+
 scrape(options).then(() => {
   console.log('Website successfully downloaded');
+  progressBar.stop();
 
   // Serve the cloned website
   app.use(express.static(cloneDirectory));
@@ -36,5 +59,6 @@ scrape(options).then(() => {
   });
 }).catch((err) => {
   console.error('An error occurred', err);
+  progressBar.stop();
 });
 
