@@ -1,0 +1,426 @@
+<!DOCTYPE html><html lang="id"><head>
+        <meta charset="utf-8">
+        <!-- dont touch below part in local -->
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="images/img_logo_150.png">
+        <link id="lcp-preload-header">
+        <meta id="meta-viewport" name="viewport" content="initial-scale=1.0, width=device-width">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+        <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: dark)">
+
+        <style>
+            html {
+                background-color: #ffffff;
+            }
+        </style>
+        <script>
+            // Define a global object if it doesn't exist
+            if (typeof global === 'undefined') {
+                var global = window;
+            }
+        </script>
+        <link rel="manifest" href="/manifest.json">
+        <link rel="stylesheet preload prefetch" as="style" href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap" type="text/css" crossorigin="anonymous">
+        <script defer="" src="js/rangeslider.min.js"></script>
+
+        
+
+        <script>var merchantCode="001";var globMerchantName="BK8";var styleGroup="001";var time="1718540103600";var defaultSettings={"luckywheel":[],"ceremoryBanner":{"showBanner":true}};var isInjectComm100=true;var isCustomHotGameSlider=true;var isCustomSlotJson=true;var languageList=['en-my','zh-my','id-id','th-th','ms-my','en-id','en-th','vi-vn','en-vn','en-sg','zh-sg','en-us','zh-us','en-kh','km-kh','zh-kh','tl-ph','en-ph','zh-ph'];var templateCode="beta";var loadingTemplate="loading_beta";var navbarTemplate="d_navbar_beta";var beforeloginbarTemplate="d_beforeLoginBar_beta";var afterloginbarTemplate="d_afterLoginBar_beta";var languageModalTemplate="d_languageModal_beta";var footerTemplate="dynamicFooter";var m_footerTemplate="dynamicFooter";var registerTemplate="d_register_beta";var homeTemplate="home_beta";var desktopGameTabTemplate="d_desktopGameTab_ss2";var hotgameTemplate="d_hotgame_beta";var homeLatestPromoTemplate="d_latestPromo_beta";var homeAppLandingTemplate="d_homeAppLanding_beta";var announcementPopupTemplate="d_announcementPopup_beta";var m_mobileAnnouncementPageTemplate="d_announcement_ss2";var sidebannerTemplate="sideBanner_beta";var registerStyle="registerStyle2";var resetPasswordTemplate="d_resetPassword_ss2";var m_navbarTemplate="d_navbar_beta";var m_sidebarTemplate="d_sidebar_beta";var m_bottomNavbarTemplate="bottomNav_beta";var m_homeTemplate="home_beta";var m_homeBannerSliderTemplate="homeBannerSlider_beta";var m_announcementBarTemplate="d_announcementBar_beta";var m_mobileLoginJoinBtnTemplate="d_MobileLoginJoinBtn_beta";var m_depositProgressBarTemplate="deposit_progress_bar_beta";var mobileWalletTemplate="d_mobileWallet_beta";var m_mobileGameTabTemplate="d_mobileGameTab_beta";var m_hotgameTemplate="d_mobileHotgame_beta";var m_homeLatestPromoTemplate="d_mobileLatestPromo_beta";var m_homeAppLandingTemplate="d_homeAppLanding_beta";var slotTemplate="d_slot_beta";var m_slotTemplate="mSlot_beta";var casinoTemplate="d_casino_beta";var m_casinoTemplate="mCasino_beta";var fishingTemplate="d_fishing_beta";var m_fishingTemplate="fishing_beta";var lotteryTemplate="lottery_beta";var m_lotteryTemplate="lottery_beta";var m_gamesTemplate="games_beta";var settingsTemplate="d_settings_beta";var pokerTemplate="poker_beta";var m_pokerTemplate="poker_beta";var settingsMainWalletTemplate="d_settingsMainWallet_beta";var settingsSideNavbarTemplate="d_settingsSideNavbar_ss2";var m_settingsTemplate="d_settings_ss2";var m_fundsTemplate="funds_beta";var bankTransferTemplate="d_bankTransfer_beta";var quickPayTemplate="d_quickpay_beta";var reloadTemplate="d_reload_beta";var qrcodePayTemplate="d_qrcodePay_beta";var bankAppsTemplate="d_bankApps_beta";var cryptoDepositTemplate="d_crypto_beta";var mobileCardTemplate="d_mobileCard_beta";var depositBankQrTemplate="d_bankqr_beta";var cardPaymentTemplate="d_cardPayment_beta";var eWalletAppsTemplate="d_eWalletApps_beta";var lineDepositTemplate="d_lineDeposit_beta";var expressLandingTemplate="d_expressDepost_beta";var addBankDialogTemplate="d_addBankDialog_beta";var m_addBankDialogTemplate="addBankDialog_beta";var memberInfoVerificationDialogTemplate="d_memberInfoVerification_ss2";var depositLandingTemplate="d_depositLanding_beta";var transactionButtonTemplate="d_transactionButton_beta";var withdrawLandingTemplate="d_withdrawLanding_beta";var withdrawalTemplate="d_withdrawal_beta";var cryptoWithdrawalTemplate="d_cryptoWithdrawal_beta";var m_withdrawLandingTemplate="withdrawLanding_beta";var m_withdrawalTemplate="withdrawal_beta";var m_cryptoWithdrawalTemplate="cryptoWithdrawal_beta";var transferTemplate="d_transfer_beta";var m_transferTemplate="transfer_beta";var depositTmQrTemplate="d_trueMoneyQR_beta";var linkageDepositTemplate="d_linkageDeposit_beta";var m_depositLandingTemplate="depositLanding_beta";var transactionNoteTemplate="transactionnote_beta";var m_transactionNoteTemplate="transactionnote_beta";var m_bankAppsTemplate="bankApps_beta";var m_depositBankQrTemplate="bankqr_beta";var m_bankTransferTemplate="bankTransfer_beta";var m_quickPayTemplate="quickpay_beta";var m_cardPaymentTemplate="cardPayment_beta";var m_cryptoDepositTemplate="crypto_beta";var m_eWalletAppsTemplate="eWalletApps_beta";var m_lineDepositTemplate="lineDeposit_beta";var m_mobileCardTemplate="mobileCard_beta";var m_p2pTransferTemplate="p2ptransfer_beta";var m_qrcodePayTemplate="qrcodePay_beta";var m_reloadTemplate="reload_beta";var m_depositTmQrTemplate="trueMoneyQR_beta";var m_expressLandingTemplate="expressDepost_beta";var m_linkageDepositTemplate="linkageDeposit_beta";var profileTemplate="d_profile_beta";var settingsTabHeaderTemplate="d_settingsTabHeader_beta";var changePasswordTemplate="d_changePassword_beta";var changeProviderPasswordTemplate="d_changeProviderPassword_beta";var bankDetailTemplate="d_bankDetail_beta";var bankDetailCryptoTemplate="d_bankDetailCrypto_beta";var bankDetailLandingTemplate="d_bankDetailLanding_beta";var m_bankDetailLandingTemplate="bankDetailLanding_beta";var messageTemplate="d_message_beta";var paginationTemplate="d_pagination_beta";var deleteDialogTemplate="d_deleteDialog_beta";var referralTemplate="d_referral_beta";var myreferralTemplate="d_myReferral_beta";var shareModalTemplate="d_shareModal_ss2";var myrefbonusTemplate="d_myrefbonus_beta";var myrefbonuscommTemplate="d_myrefbonuscomm_beta";var historyControlPanelTemplate="d_historyControlPanel_beta";var m_historyControlPanelTemplate="d_historyControlPanel_ss2";var historyLandingTemplate="historylanding_beta";var historyBettingSummaryTemplate="d_bettingSummary_beta";var historyDepositWithdrawTemplate="d_depositWithdraw_beta";var historyTransferTemplate="d_historyTransfer_beta";var historyPromotionTemplate="d_historyPromotion_beta";var historyRebateTemplate="d_historyRebate_beta";var historyRewardsTemplate="d_historyRewards_beta";var historyAdjustmentTemplate="d_historyAdjustment_beta";var m_historyAdjustmentTemplate="historyAdjustment_beta";var m_historyBettingSummaryTemplate="bettingSummary_beta";var m_historyDepositWithdrawTemplate="depositWithdraw_beta";var m_historyPromotionTemplate="historyPromotion_beta";var m_historyRebateTemplate="historyRebate_beta";var m_historyRewardsTemplate="historyRewards_beta";var m_historyTransferTemplate="historyTransfer_beta";var m_promotionTemplate="promotion_beta";var promotionTemplate="d_promotion_beta";var m_profileTemplate="profile_beta";var m_changePasswordTemplate="changePassword_beta";var m_changeProviderPasswordTemplate="changeProviderPassword_beta";var m_bankDetailTemplate="bankDetail_beta";var m_messageTemplate="message_beta";var m_messageDetailTemplate="messageDetail_beta";var m_referralTemplate="referral_beta";var m_myreferralTemplate="myReferral_beta";var m_detailDialogTemplat="d_detailDialog_ss2";var m_myrefbonusTemplate="myrefbonus_beta";var m_myrefbonuscommTemplate="myrefbonuscomm_beta";var m_accountTemplate="account_beta";var liveTVTemplate="d_liveTv_ss2";var liveScoreTemplate="d_liveScore_ss2";var downloadModalTemplate="d_downloadModal_ss2";var downloadTemplate="d_download_beta";var m_downloadTemplate="mDownload_beta";var megaTemplate="d_mega_ss2";var m_megaTemplate="d_mMega_ss2";var scr918kissTemplate="d_Scr_ss2";var m_scr918kissTemplate="d_Scr_ss2";var m_registerTemplate="d_m_register_beta";var m_loginTemplate="d_mLogin_beta";var m_mobileLoginJoinTabTemplate="d_mobileLoginJoinTab_ss2";var registerSuccessTemplate="d_registerSuccess_beta";var loginAlertPopupTemplate="d_loginAlertPopup_beta";var redirectErrorTemplate="d_redirectError_beta";var phoneVerificationDialogTemplate="d_phoneVerification_beta";var m_phoneVerificationDialogTemplate="phoneVerification_beta";var changePasswordPopupTemplate="d_changePasswordPopup_beta";var vipTemplate="dynamicVip";var m_vipTemplate="dynamicVip";var contactTemplate="contact_beta";var m_contactTemplate="mContact_beta";var m_termsTemplate="terms_beta";var p2pTransferTemplate="d_p2ptransfer_beta";var liveCasinoSliderTemplate="d_liveCasinoSlider_beta";var announcementBarTemplate="d_announcementBar_beta";var hotmatchSliderTemplate="d_hotmatchSlider_beta";var sponsorsTemplate="sponsors_beta";var m_sponsorsTemplate="sponsors_beta";var loginTemplate="d_login_beta";var registerInputTemplate="d_register_input_beta";var m_liveCasinoSliderTemplate="d_liveCasinoSlider_beta";var instantGameTemplate="d_instantGame_beta";var m_instantGameTemplate="d_instantGame_beta";var m_mobileReferralBannerTemplate="d_mobileReferralBanner_beta";var m_hotmatchSliderTemplate="d_hotmatchSlider_beta";var seoFooterNew="true";var m_changeLanguageTemplate="d_change_language_beta";var infoPopupTemplate="d_infoPopup_beta";var emailVerificationDialogTemplate="d_emailVerification_beta";var m_emailVerificationDialogTemplate="emailVerification_beta";var tutorialTemplate="d_tutorial_beta";var m_registerInputTemplate="d_register_input_beta";var m_tutorialTemplate="m_tutorial_beta";var responsibleGamingTemplate="dynamicResponsibleGaming";var m_responsibleGamingTemplate="dynamicResponsibleGaming";var providerSummaryInfoTemplate="d_provider_summary_info_beta";var depositInstructionDialogTemplate="d_deposit_instruction_dialog_beta";var m_depositInstructionDialogTemplate="d_deposit_instruction_dialog_beta";var rewardPopupTemplate="d_reward_popup_beta";var transactionFormChannelTemplate="transaction_form_channel_beta";var transactionFormBankTemplate="transaction_form_bank_beta";var transactionFormBankAccountTemplate="transaction_form_bank_account_beta";var m_transactionFormChannelTemplate="transaction_form_channel_beta";var m_transactionFormBankTemplate="transaction_form_bank_beta";var m_transactionFormBankAccountTemplate="transaction_form_bank_account_beta";var transactionFormLinkageDepositTemplate="transaction_form_linkage_deposit_beta";var m_transactionFormLinkageDepositTemplate="transaction_form_linkage_deposit_beta";var eSportTemplate="eSport_beta";var sportTemplate="sport_beta";var gamesTemplate="games_beta";var providerSubmenuTemplate="provider_submenu_beta";var providerGameTemplate="provider_game_beta";var providerFilterSortTemplate="provider_filter_sort_beta";var providerTopGameTemplate="provider_top_game_beta";var m_countryListDialogTemplate="countryListDialog_beta";var instantRebateLandingTemplate="instantRebateLanding_beta";var instantRebateTemplate="instantRebate_beta";var instantRebateHistoryTemplate="instantRebateHistory_beta";var m_instantRebateLandingTemplate="instantRebateLanding_beta";var m_instantRebateTemplate="instantRebate_beta";var m_instantRebateHistoryTemplate="instantRebateHistory_beta";var m_bankDetailCryptoTemplate="bankDetailCrypto_beta";var m_settingsUserVerificationTemplate="settings_user_verification_beta";var m_gamePopupTemplate="gamePopup_beta";var infoCentreTemplate="infoCentre_beta";var m_shareModalTemplate="shareModal_beta";var m_infoCentreTemplate="infoCentre_beta";var ewalletWithdrawalTemplate="ewallet_beta";var m_ewalletWithdrawalTemplate="ewallet_beta";var bankDetailEWalletTemplate="bankDetail_EWallet_beta";var m_bankDetailEWalletTemplate="bankDetail_EWallet_beta";var homeBannerSliderTemplate="homeBannerSlider_beta";var aboutUsTemplate="dynamicAboutUs";var m_aboutUsTemplate="dynamicAboutUs";var customProviderCurrencyMenuSettings="true";var affHomeTemplate="home_beta";var m_affHomeTemplate="home_beta";var affRegisterTemplate="register_beta";var affRewardsTemplate="rewards_beta";var affFaqTemplate="faq_beta";var termsTemplate="terms_beta";var m_affRegisterTemplate="register_beta";var affContactUsTemplate="d_contact_beta";var m_affContactUsTemplate="contact_beta";var affCommissionPlanTemplate="commissionPlan_beta";var m_affCommissionPlanTemplate="commissionPlan_beta";var m_affFaqTemplate="faq_beta";var m_affRewardsTemplate="rewards_beta";var affOverviewTemplate="overview_beta";var affMyprofileTemplate="myProfile_beta";var affPersonalInfoTemplate="personalInfo_beta";var affChangePasswordTemplate="changePassword_beta";var m_affChangePasswordTemplate="changePassword_beta";var affBankDetailsTemplate="bankDetails_beta";var affCryptoAddressTemplate="cryptoAddress_beta";var affWireTransferTemplate="wireTransfer_beta";var m_affWireTransferWithdrawalTemplate="wireTransferWithdrawal_beta";var affWireTransferWithdrawalTemplate="wireTransferWithdrawal_beta";var affQuickRegisterTemplate="quickRegister_beta";var affSettingsLandingTemplate="settingsLanding_beta";var affMenubarTemplate="affMenubar_beta";var affDeleteBankDialogTemplate="deleteBankDialog_beta";var affSettingsMainWalletTemplate="settingsMainWallet_beta";var affWithdrawalReportTemplate="withdrawal_beta";var affDepositReportTemplate="deposit_beta";var affTransferReportTemplate="transfer_beta";var affMemberReportTemplate="member_beta";var affHistoryTemplate="history_beta";var affMemberSummaryTemplate="memberSummary_beta";var affMonthlyWinlossTemplate="monthlyWinLoss_beta";var subAffReportTemplate="subAffiliateReport_beta";var affMemberReportWinLostTemplate="memberReport_beta";var affMonthlyCommTemplate="monthlyComm_beta";var m_affOverviewTemplate="overview_beta";var m_affSettingsMainWalletTemplate="settingsMainWallet_beta";var m_affSettingsLandingTemplate="settingsLanding_beta";var m_affPersonalInfoTemplate="personalInfo_beta";var m_affWireTransferTemplate="wireTransfer_beta";var m_affCryptoAddressTemplate="cryptoAddress_beta";var m_affQuickRegisterTemplate="quickRegister_beta";var m_affHistoryTemplate="history_beta";var m_affWithdrawalReportTemplate="withdrawal_beta";var m_affDepositReportTemplate="deposit_beta";var m_affTransferReportTemplate="transfer_beta";var m_affMemberReportTemplate="member_beta";var m_affMonthlyCommTemplate="monthlyComm_beta";var m_affMemberSummaryTemplate="memberSummary_beta";var m_affMonthlyWinlossTemplate="monthlyWinLoss_beta";var m_affMemberReportWinLostTemplate="memberReport_beta";var m_subAffReportTemplate="subAffiliateReport_beta";var m_affDeleteBankDialogTemplate="deleteBankDialog_beta";var m_affBankDetailsTemplate="bankDetails_beta";var affGalleryTemplate="gallery_beta";var m_affGalleryTemplate="gallery_beta";var affTrackingTemplate="tracking_beta";var m_affTrackingTemplate="tracking_beta";var affCampaignTemplate="campaign_beta";var m_affCampaignTemplate="campaign_beta";var affCampaignCreateTemplate="campaignCreate_beta";var m_affCampaignCreateTemplate="campaignCreate_beta";var affCampaignHistoryTemplate="campaignHistory_beta";var m_affCampaignHistoryTemplate="campaignHistory_beta";var affTransferTemplate="transfer_beta";var m_affTransferTemplate="transfer_beta";var affDepositLandingTemplate="depositLanding_beta";var m_affDepositLandingTemplate="depositLanding_beta";var affBankTransferTemplate="bankTransfer_beta";var m_affBankTransferTemplate="bankTransfer_beta";var affCryptoTemplate="crypto_beta";var m_affCryptoTemplate="crypto_beta";var affWithdrawalTemplate="withdrawal_beta";var m_affWithdrawalTemplate="withdrawal_beta";var affCryptoWithdrawalTemplate="cryptoWithdrawal_beta";var m_affCryptoWithdrawalTemplate="cryptoWithdrawal_beta";var affFundsLandingTemplate="d_fundsLanding_ss2";var affReportsTemplate="d_report_ss2";var m_affReportsTemplate="d_report_ss2";var m_affMyprofileTemplate="myProfile_beta";var affAddBankDialogTemplate="addBankDialog_beta";var cockfightIndexTemplate="d_cockfight_ss2";var emailVerificationLandingTemplate="emailVerificationLanding_beta";var m_emailVerificationLandingTemplate="emailVerificationLanding_beta";var pageNotFoundTemplate="d_page_not_found_beta";var fourDTemplate="fourD_beta";var m_fourDTemplate="fourD_beta";var regionQrTemplate="regionQR_beta";var m_regionQrTemplate="regionQR_beta";var kycNotificationPopupTemplate="kycNotificationPopup_beta";var affEwalletTemplate="ewallet_beta";var m_affEwalletTemplate="ewallet_beta";var affQuickPayTemplate="quickPay_beta";var m_affQuickPayTemplate="quickPay_beta";var togelTemplate="togel_beta";var m_togelTemplate="togel_beta";var historyMissionRecordTemplate="d_historyMissionRecord_beta";var m_historyMissionRecordTemplate="d_historyMissionRecord_beta";var luckyWheelLandingTemplate="luckyWheel_02";var m_luckyWheelLandingTemplate="m_LuckyWheel_02";var missionDiaryTemplate="d_missionDiary_beta";var m_missionDiaryTemplate="d_missionDiary_beta";var missionDiaryClaimDialogTemplate="d_missionDiaryClaimDialog_beta";var m_missionDiaryClaimDialogTemplate="d_missionDiaryClaimDialog_beta";var newsLetterTemplate="news_letter_beta";var affHideLivechat=true;var countryLanguageKey="ID_ID";</script><script>var cacheControl=true;var footer_content_settings="footer-content-settings-1718185046.json";var home_content_settings="home-content-settings-1717152338.json";var portal_settings="portal-settings-1718345975.json";var menu_settings="menu-settings-1717158072.json";var custom_route_settings="custom-route-settings-1715160290.json";var custom_menu="custom-menu-1718162169.json";</script><link rel="preload" as="fetch" href="/public/html/settings/footer-content-settings-1718185046.json" type="application/json" crossorigin=""><link rel="preload" as="fetch" href="/public/html/settings/home-content-settings-1717152338.json" type="application/json" crossorigin=""><link rel="preload" as="fetch" href="/public/html/settings/portal-settings-1718345975.json" type="application/json" crossorigin=""><link rel="preload" as="fetch" href="/public/html/settings/menu-settings-1717158072.json" type="application/json" crossorigin=""><link rel="preload" as="fetch" href="/public/html/settings/custom-route-settings-1715160290.json" type="application/json" crossorigin=""><link rel="preload" as="fetch" href="/public/html/settings/custom-menu-1718162169.json" type="application/json" crossorigin=""><meta name="robots" content="noindex, nofollow"><title>BK8: Situs Judi Online Terbaik 2023 – Bonus 20 Juta!</title><meta name="description" content="BK8 menawarkan ragam permainan casino, slot, e-sport, sport, fishing &amp; lotere. Klaim bonus selamat datang Anda hingga 20.000.000 sekarang!">
+        <meta property="og:image" content="images/img_logo_150.png"><script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "jew59e3kvf");
+</script>
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@graph": [{
+      "@type": "WebSite",
+      "@id": "https://www.bk8id.co/#website",
+      "url": "https://www.bk8id.co/",
+      "name": "BK8",
+      "description": "BK8 menawarkan ragam permainan casino, slot, e-sport, sport, fishing & lotere. Klaim bonus selamat datang Anda hingga 20.000.000 sekarang!",
+      "inLanguage": "id-id"
+    }, {
+      "@type": "ImageObject",
+      "@id": "https://www.bk8id.co/#primaryimage",
+      "inLanguage": "id-id",
+      "url": "/public/cms/b20221030190722504.jpg",
+      "width": 2000,
+      "height": 525,
+      "caption": "BK8"
+    }, {
+      "@type": "WebPage",
+      "@id": "https://www.bk8id.co/#webpage",
+      "url": "https://www.bk8id.co/",
+      "name": "BK8: Situs Judi Online Terbaik 2023 – Bonus 20 Juta!",
+      "isPartOf": {
+        "@id": "https://www.bk8id.co/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.bk8id.co/#primaryimage"
+      },
+      "datePublished": "2021-05-21T10:33:08+00:00",
+      "dateModified": "2021-05-22T02:58:26+00:00",
+      "description": "BK8 menawarkan ragam permainan casino, slot, e-sport, sport, fishing & lotere. Klaim bonus selamat datang Anda hingga 20.000.000 sekarang!",
+      "inLanguage": "id-id",
+      "potentialAction": [{
+        "@type": "ReadAction",
+        "target": ["https://www.bk8id.co/"]
+      }]
+    }]
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "AboutPage",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.bk8id.co/"
+    },
+    "url": "https://www.bk8id.co/",
+    "headline": "BK8: Situs Judi Online Terbaik 2023 – Bonus 20 Juta!",
+    "image": {
+      "@type": "ImageObject",
+      "url": "/public/html/cms/b20221030190722504.jpg",
+      "width": "2000",
+      "height": "525"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://www.bk8id.co/#organization",
+      "name": "BK8",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "/public/html/cms/l20220909063829172.png",
+        "width": 150,
+        "height": 80
+      }
+    },
+    "description": "BK8 menawarkan ragam permainan casino, slot, e-sport, sport, fishing & lotere. Klaim bonus selamat datang Anda hingga 20.000.000 sekarang!"
+  }
+</script>
+
+
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-97482446-1', 'auto');
+	  ga('create', 'UA-97482446-8', 'auto', 'bk8indo');
+	  ga('send', 'pageview');
+	  ga('bk8indo.send', 'pageview');
+
+	</script>
+
+
+
+	<script type="text/javascript">var x="Situs Taruhan Judi Bola Resmi | Agen Bandar Online | Piala Dunia 2018",y="http://www.bk809.com/",t="Dec 12, 2017",u="0";/*rm("p4866538307969761856")*/</script>
+
+	<script type="text/javascript">
+	  window.__lo_site_id = 121510;
+
+	  (function() {
+		var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
+		wa.src = 'https://d10lpsik1i8c69.cloudfront.net/w.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
+		})();
+	</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5PHB48S');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Adform Tracking Code BEGIN -->
+<script type="text/javascript">
+    window._adftrack = Array.isArray(window._adftrack) ? window._adftrack : (window._adftrack ? [window._adftrack] : []);
+    window._adftrack.push({
+        HttpHost: 'track.adform.net',
+        pm: 2273166,
+        divider: encodeURIComponent('|'),
+        pagename: encodeURIComponent('Visitors')
+    });
+    (function () { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://s2.adform.net/banners/scripts/st/trackpoint-async.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); })();
+
+</script>
+<noscript>
+    <p style="margin:0;padding:0;border:0;">
+        <img src="https://track.adform.net/Serving/TrackPoint/?pm=2273166&ADFPageName=Visitors&ADFdivider=|" width="1" height="1" alt="" />
+    </p>
+</noscript>
+<!-- Adform Tracking Code END -->
+
+
+<!-- One Signal BEGIN-->
+<script src="js/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "c05b64f4-3dc1-4796-a7c1-1aee52dcd0ba",
+    });
+  });
+</script>
+<!-- One Signal END -->
+<!-- Google tag (gtag.js) -->
+<script async="" src="js_1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BQ2HQ8J0XG');
+</script>
+<script src="js/custom-event-scripts.js"></script>
+        
+        <script id="sp_robotCanonical"></script>
+
+        <script async="" src="js/player-0.1.0.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                function lcpToggle() {
+                    const lcp = document.getElementById('lcp-home-banner');
+
+                    setTimeout(() => {
+                        lcp.style.display = 'none';
+                    }, 1200);
+                }
+                lcpToggle();
+            });
+
+            function setBodyId() {
+                document.body.id = 'MC' + window.styleGroup;
+            }
+            window.onload = setBodyId;
+
+            const { search, hostname } = window.location;
+            const layoutHostname = hostname.replace(/[-\\.]/g, '_');
+
+            const urlParam = new URLSearchParams(search);
+            const template = urlParam.get('template') || window[layoutHostname];
+
+            function setupLayout() {
+                if (window.previewMode && template) {
+                    window
+                        .fetch(`/public/html/template/${template}.json`)
+                        .then((res) => res.json())
+                        .then((layoutJson) => {
+                            if (layoutJson) {
+                                const layoutJsonKeys = Object.keys(layoutJson);
+                                for (const key of layoutJsonKeys) {
+                                    window[key] = layoutJson[key];
+                                }
+                            }
+                            window.templateLayoutLoaded = true;
+                        });
+                } else {
+                    window.templateLayoutLoaded = true;
+                }
+            }
+            setupLayout();
+
+            function setupCSS() {
+                var doc = document.createElement('link');
+                doc.setAttribute('id', 'templated-css');
+                doc.setAttribute('rel', 'stylesheet');
+                doc.onload = function () {
+                    setTimeout(function () {
+                        window.cssLoaded = true;
+                    }, 0);
+                };
+                if (window.previewMode && template) {
+                    doc.setAttribute('href', `/sp-css/css/${template}/custom.css?v=1718540103600`);
+                } else {
+                    doc.setAttribute('href', `/sp-css/css/custom.css?v=1718540103600`);
+                }
+                document.head.appendChild(doc);
+            }
+            setupCSS();
+
+            var language = localStorage.getItem('LANGUAGE_CURRENCY');
+
+            function openLiveChatPublic() {
+                window.SPL_Content.getContact(language, 'web').then((data) => {
+                    if (data) {
+                        for (let i = 0; i < data.length; i++) {
+                            if (data[i].name === 'LiveChat') {
+                                window.open(data[i].url, '', 'width=500,height=700,toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=no');
+                                break;
+                            }
+                        }
+                    }
+                });
+            }
+        </script>
+        <script>
+            function unhideFooter() {
+                var seoContentDivs = document.getElementsByClassName('seo-content-wrap');
+                var footerSeeMoreButtom = document.getElementById('footer-see-more-button');
+                var footerSeeLessButtom = document.getElementById('footer-see-less-button');
+
+                if (seoContentDivs && seoContentDivs.length > 0 && footerSeeMoreButtom && footerSeeLessButtom) {
+                    for (let i = 0; i < seoContentDivs.length; i++) {
+                        if (i === 0) {
+                            seoContentDivs[i].classList.add('hide');
+                        }
+                        if (i !== 0) {
+                            seoContentDivs[i].style.display = 'block';
+                            seoContentDivs[i].classList.add('show');
+                        }
+                    }
+                    footerSeeMoreButtom.style.display = 'none';
+                    footerSeeLessButtom.style.display = 'block';
+                    footerSeeMoreButtom.classList.remove('show');
+                    footerSeeLessButtom.classList.add('show');
+                }
+            }
+
+            function hideFooter() {
+                var seoContentDivs = document.getElementsByClassName('seo-content-wrap');
+                var footerSeeMoreButtom = document.getElementById('footer-see-more-button');
+                var footerSeeLessButtom = document.getElementById('footer-see-less-button');
+
+                if (seoContentDivs && seoContentDivs.length > 0 && footerSeeMoreButtom && footerSeeLessButtom) {
+                    for (let i = 0; i < seoContentDivs.length; i++) {
+                        if (i === 0) {
+                            seoContentDivs[i].classList.remove('hide');
+                        }
+                        if (i !== 0) {
+                            seoContentDivs[i].style.display = 'none';
+                            seoContentDivs[i].classList.remove('show');
+                        }
+                    }
+                    footerSeeMoreButtom.style.display = 'block';
+                    footerSeeLessButtom.style.display = 'none';
+                    footerSeeMoreButtom.classList.add('show');
+                    footerSeeLessButtom.classList.remove('show');
+                }
+            }
+
+            function seoFooterInfoCenter(path, openUrl) {
+                window.open(path, openUrl);
+            }
+
+            function toogleSeoFooterAccordion(elem) {
+                if (elem) {
+                    elem.classList.toggle('active');
+                    var panel = elem.nextElementSibling;
+                    if (panel) {
+                        if (panel.style.display === 'block') {
+                            panel.style.display = 'none';
+                        } else {
+                            panel.style.display = 'block';
+                        }
+                    }
+                }
+            }
+
+            function toogleSeoFooterFAQ(elem) {
+                let rotateArrow = elem.querySelectorAll('.arrow');
+                if (rotateArrow[0].style.transform === '') {
+                    rotateArrow[0].style.transform = 'rotateZ(180deg)';
+                } else {
+                    rotateArrow[0].style.transform = '';
+                }
+
+                if (elem) {
+                    var panel = elem.nextElementSibling;
+                    if (panel) {
+                        if (panel.style.display === 'block') {
+                            panel.style.display = 'none';
+                        } else {
+                            panel.style.display = 'block';
+                        }
+                    }
+                }
+            }
+
+            function toggleSeoFooterVisible(elemIds) {
+                if (Array.isArray(elemIds)) {
+                    for (let i = 0; i < elemIds.length; i++) {
+                        let elem = document.getElementById(elemIds[i]);
+                        toggleVisible(elem);
+                    }
+                } else {
+                    let elem = document.getElementById(elemIds);
+                    toggleVisible(elem);
+                }
+            }
+
+            function toggleVisible(elem) {
+                let style = '';
+                if (elem) {
+                    if (elem.style.display === 'block') {
+                        style = 'none';
+                    } else {
+                        style = 'block';
+                    }
+                    elem.style.display = style;
+                }
+            }
+        </script>
+      <script type="module" crossorigin="" src="js/index-389dfbfa.js"></script>
+      <link rel="modulepreload" crossorigin="" href="/assets/vendor-5f3b5500.js">
+      <link rel="stylesheet" href="css/index-00db75c4.css">
+    </head>
+
+    <body class="notranslate">
+        <div id="lcp-home-banner" style="position: fixed; width: 100%; height: 100%; top: 50%; left: 50%; text-align: center; transform: translate(-50%, -50%)">
+            <picture>
+                <div id="lcp-home-banner-source"></div>
+                <div id="lcp-home-banner-source-desktop"></div>
+                <div id="lcp-home-banner-default"></div>
+            </picture>
+        </div>
+
+        <script id="templateHeader"></script>
+        <!--Begin Live Chat Code--> <div id="livechat-button-08040000-0000-0000-0000-008e004c4cbb"></div> <script type="text/javascript">   var LiveChatAPI=LiveChatAPI||{};LiveChatAPI.chatGroup = 1;(function(t){function e(e){var a=document.createElement("script"),c=document.getElementsByTagName("script")[0];a.type="text/javascript",a.async=!0,a.src=e+t.site_id,c.parentNode.insertBefore(a,c)}t.chat_buttons=t.chat_buttons||[],t.chat_buttons.push({code_plan:"08040000-0000-0000-0000-008e004c4cbb",div_id:"livechat-button-08040000-0000-0000-0000-008e004c4cbb"}),t.site_id=5000379,t.main_code_plan="08040000-0000-0000-0000-008e004c4cbb",e("https://vue.livesupportbs.com/livechat.ashx?siteId="),setTimeout(function(){t.loaded||e("https://vuestandby.livesupportbs.com/livechat.ashx?siteId=")},5e3)})(LiveChatAPI||{}) </script> <!--End Live Chat Code-->              
+
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root">
+            <div id="init-loading" style="
+                    z-index: 1;
+                    height: 100vh;
+                    width: 100vw;
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    background: rgba(0, 0, 0, 0.6);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    z-index: 9999;
+                ">
+                <div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%)">
+                    <img style="width: 100%; height: 100%; max-width: 300px" src="fonts/puff.svg" alt="">
+                </div>
+            </div>
+        </div>
+        
+
+        
+        <div id="seo-footer-container" style="display: none">
+            <!-- IF need to open UAT Footer Content need to close below <div></div> -->
+            <div id="sp_seoFooter"></div>
+        </div>
+
+        <!-- END FOOTER -->
+        <div id="register-success-container"></div>
+    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'894ba3abdb5268e6',t:'MTcxODU0OTcxMC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+
+
+</body></html><!--ENDOFSITE-->

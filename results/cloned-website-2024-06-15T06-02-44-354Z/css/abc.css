@@ -1,0 +1,109 @@
+html {
+  --nm1: #df0515;
+  --nm2: #ee0011;
+  --nm3: #ffe2e2;
+
+  --dp: 8px;
+}
+.btn-search {
+  color: #000;
+}
+.btn-search:hover {
+  color: #444;
+}
+.navbar-mopie,
+.play-button,
+header.main,
+.navbar-custom,
+header.responsive {
+  background: var(--nm1);
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #eee;
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-default {
+  color: #fff;
+  background: #0003;
+}
+.bg-faded,
+header.main .hbox .search form {
+  background: #fff;
+}
+.navbar-mopie .form-control {
+  background: transparent;
+  color: #000;
+}
+.navbar-mopie .form-control::placeholder,
+header.main .hbox .search form input[type=text]::placeholder,
+[role=search] .form-control::placeholder {
+  color: #92969b!important;
+}
+.btn-outline-theme {
+  border-color: #0003;
+}
+.btn-theme {
+  background-color: #0003;
+}
+.btn-theme:hover {
+  background-color: #0007;
+}
+a,
+a:hover,
+.thumb ._title:hover,
+.thumb:hover ._title {
+  color: var(--nm1);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--nm2);
+}
+header.main .hbox .search {
+  padding-left: calc(var(--dp) * 2);
+  padding-right: calc(var(--dp) * 2);
+}
+header.main .hbox .search form button[type=submit]:hover {
+  color: var(--nm3);
+}
+.head-main-nav ul.main-header li:hover>a {
+  color: #fff!important;
+}
+a {
+  color: var(--nm3)!important;
+}
+.navbar-default {
+  border-color: #0003;
+}
+.pagination>li>a,
+.pagination>li>span {
+  background: transparent;
+  border-color: #0007;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+  background: var(--nm1);
+  border-color: #0007;
+}
+[role=search] .form-control {
+  background: #fff;
+  border-color: transparent;
+}
+.btn-default {
+  background: #0003;
+  color: #fff;
+  border-color: #0003;
+}
+.btn-default:hover {
+  background: #0004;
+  color: var(--nm3);
+  border-color: #0003;
+}
+.label-vote {
+  background: var(--nm2);
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+  background: var(--nm1);
+  border-color: #0003;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+  border-color: transparent;
+  background: #0003;
+}
