@@ -7,9 +7,8 @@ import { displayMenu } from './src/menu.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const app = express();
 const resultsDirectory = path.join(__dirname, 'results');
 
 // Start displaying menu
-displayMenu(app, resultsDirectory);
+displayMenu(resultsDirectory);
 
