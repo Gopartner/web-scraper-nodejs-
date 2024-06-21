@@ -1,15 +1,15 @@
 import path from 'path';
 import scrape from 'website-scraper';
 import { SingleBar, Presets } from 'cli-progress';
-import { createResultsDirectory } from './utils.js';
+import { loadClonedWebsites } from './utils.js';
 import { displayMenu } from './menu.js';
 
-async function cloneWebsite(url) {
-  createResultsDirectory(); // Ensure results directory exists
+async function cloneWebsite(url, folderName, resultsDirectory, userAgent) {
+// Ensure results directory exists
+loadClonedWebsites(resultsDirectory);
 
   const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
   
-  const folderName = await promptUser('Masukkan nama untuk folder hasil clone: ');
   const cloneDirectory = path.join(resultsDirectory, folderName);
 
   const options = {
@@ -17,7 +17,7 @@ async function cloneWebsite(url) {
     directory: cloneDirectory,
     request: {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        'User-Agent': userAgent || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
       }
     }
   };
@@ -39,20 +39,13 @@ async function cloneWebsite(url) {
     console.clear();
     console.log('Website successfully downloaded');
     console.log('Newly cloned website:', cloneDirectory);
+    return true;
   } catch (err) {
     console.error('An error occurred during cloning:', err);
+    return false;
   } finally {
-    displayMenu(); // Show menu again after processing
+    displayMenu(resultsDirectory); // Show menu again after processing
   }
-}
-
-function promptUser(question) {
-  // Simulated function for prompting user input
-  return new Promise((resolve, reject) => {
-    rl.question(question, (answer) => {
-      resolve(answer.trim());
-    });
-  });
 }
 
 export { cloneWebsite };

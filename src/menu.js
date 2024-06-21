@@ -1,35 +1,41 @@
-import { cloneWebsite } from './websiteCloner.js';
+import fs from 'fs';
+import { cloneWebsite } from './clone.js';
 import { loadClonedWebsites } from './utils.js';
 import rl from './input.js';
 import express from 'express';
 import path from 'path';
-import fs from 'fs';
+import { userAgentMenu } from './userAgents.js';
 
 const port = 3000;
 let server;
 
+// Function to clear terminal screen
 function clearTerminal() {
   process.stdout.write('\x1Bc');
 }
 
+// Function to display the main menu
 function displayMenu(resultsDirectory) {
   console.log('1. Clone a new website');
   console.log('2. Run the cloned website');
-  console.log('3. Exit');
+  console.log('3. Manage User Agents');
+  console.log('4. Exit');
 
   rl.question('Enter your choice: ', (choice) => {
     switch (parseInt(choice)) {
       case 1:
         rl.question('Enter the URL of the website you want to clone: ', (url) => {
           rl.question('Enter the name for the cloned folder: ', async (folderName) => {
-            const success = await cloneWebsite(url, folderName, resultsDirectory);
-            if (success) {
-              console.log('Website cloned successfully!');
-            } else {
-              console.log('Failed to clone website. Please try again.');
-            }
-            clearTerminal();
-            displayMenu(resultsDirectory); // Show menu again after processing
+            rl.question('Enter custom User-Agent (press Enter to skip): ', async (userAgent) => {
+              const success = await cloneWebsite(url, folderName, resultsDirectory, userAgent);
+              if (success) {
+                console.log('Website cloned successfully!');
+              } else {
+                console.log('Failed to clone website. Please try again.');
+              }
+              clearTerminal();
+              displayMenu(resultsDirectory); // Show menu again after processing
+            });
           });
         });
         break;
@@ -114,6 +120,9 @@ function displayMenu(resultsDirectory) {
         }
         break;
       case 3:
+        userAgentMenu();
+        break;
+      case 4:
         console.log('Exiting...');
         rl.close();
         process.exit(0); // Exit the program

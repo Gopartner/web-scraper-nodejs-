@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Modal</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-200 flex items-center justify-center h-screen">
+
+    <!-- Modal Background -->
+    <div class="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-50">
+        <!-- Modal Box -->
+        <div class="bg-white rounded-lg shadow-lg p-6 max-w-sm w-full relative">
+            <!-- Profile Section -->
+            <div class="flex items-center mb-4">
+                <img class="w-12 h-12 rounded-full mr-4" src="https://via.placeholder.com/150" alt="Profile Picture">
+                <div>
+                    <h2 class="text-xl font-semibold">Amelia Ajahra</h2>
+                    <p class="text-gray-600">@Amelia_anh</p>
+                    <p class="text-gray-600">Bergabung 8 bulan lalu • 1 subscriber</p>
+                </div>
+            </div>
+            <!-- Subscribe Button -->
+            <button class="bg-blue-500 text-white font-semibold py-2 px-4 rounded w-full mb-4">Subscribe</button>
+            <!-- Additional Information -->
+            <p class="text-gray-600">Di channel ini</p>
+            <p class="text-gray-800 font-semibold">1 komentar</p>
+            <!-- Close Button -->
+            <button class="absolute top-2 right-2 text-gray-600 hover:text-gray-900" onclick="document.querySelector('.fixed').style.display='none'">✕</button>
+        </div>
+    </div>
+
+</body>
+</html>
+
