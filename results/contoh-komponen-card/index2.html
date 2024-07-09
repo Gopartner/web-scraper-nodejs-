@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS Layout</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-4">
+
+  <div class="container mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
+      <!-- Item 1 -->
+      <div class="flex flex-col md:flex-row col-span-1 md:col-span-3 lg:col-span-4 bg-white p-4 rounded-lg shadow">
+        <div class="w-full md:w-1/2 flex items-center justify-center">
+          <img src="https://via.placeholder.com/150" alt="Car Image" class="w-full h-auto md:max-w-xs">
+        </div>
+        <div class="w-full md:w-1/2 p-4">
+          <h2 class="text-xl font-bold mb-2">Car Title</h2>
+          <p class="mb-2">Capacity: 5 seats</p>
+          <p class="mb-2">Transmission: Automatic</p>
+          <p class="mb-2">Price: $20,000</p>
+          <button class="bg-blue-500 text-white px-4 py-2 rounded">Details</button>
+          <button class="bg-green-500 text-white px-4 py-2 rounded mt-2">Book Now</button>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="flex flex-col md:flex-row col-span-1 md:col-span-3 lg:col-span-4 bg-white p-4 rounded-lg shadow">
+        <div class="w-full md:w-1/2 flex items-center justify-center">
+          <img src="https://via.placeholder.com/150" alt="Car Image" class="w-full h-auto md:max-w-xs">
+        </div>
+        <div class="w-full md:w-1/2 p-4">
+          <h2 class="text-xl font-bold mb-2">Car Title</h2>
+          <p class="mb-2">Capacity: 5 seats</p>
+          <p class="mb-2">Transmission: Automatic</p>
+          <p class="mb-2">Price: $20,000</p>
+          <button class="bg-blue-500 text-white px-4 py-2 rounded">Details</button>
+          <button class="bg-green-500 text-white px-4 py-2 rounded mt-2">Book Now</button>
+        </div>
+      </div>
+
+      <!-- Add more items as needed -->
+      
+    </div>
+  </div>
+
+</body>
+</html>
+
