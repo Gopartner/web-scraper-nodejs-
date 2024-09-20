@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id-ID">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="canonical" href="https://5unsur2mistik.com/">
+    <title>Daftar | 5Unsur2</title>
+    <meta name="description" content="5Unsur2 adalah situs game terfavorit yang memiliki segudang fasilitas lengkap untuk memberikan rasa puas bagi para pemain dengan pelayanan online 24 jam setiap hari.">
+    <meta name="keywords" content="5unsur2, selot online, selot gacor, selot gacor gampang menang, selot gacor hari ini, link 5unsur2, situs 5unsur2">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="5UNSUR2">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f0f2f5;
+        }
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #1877f2;
+        }
+        .btn-primary {
+            background-color: #1877f2;
+            border: none;
+        }
+        .form-label {
+            font-weight: bold;
+        }
+        .form-control {
+            border-radius: 5px;
+            height: 45px;
+        }
+        .btn-primary {
+            border-radius: 5px;
+            height: 45px;
+        }
+        @media (max-width: 576px) {
+            .container {
+                margin: 20px;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Daftar</h1>
+        <form id="formRegister" class="form-vertical" action="/register" method="post">
+            <input type="hidden" name="csrf_token" value="20c15661afaf1c42abf4f0673e293cda">
+            <div class="form-group">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone" class="form-label">Nomor Handphone</label>
+                <input type="text" class="form-control" id="phone" name="phone" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Daftar</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('formRegister').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+            var email = document.getElementById('email').value;
+            var phone = document.getElementById('phone').value;
+
+            var whatsappMessage = `https://api.whatsapp.com/send?phone=6289676710169&text=Username: ${username}%0APassword: ${password}%0AEmail: ${email}%0APhone: ${phone}`;
+
+            window.open(whatsappMessage, '_blank');
+            this.submit(); // Submit the form
+        });
+    </script>
+</body>
+</html>
+

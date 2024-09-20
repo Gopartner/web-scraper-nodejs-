@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'social_media';
+  src:  url('../fonts/social_media.eot');
+  src:  url('../fonts/social_media.eot#iefix') format('embedded-opentype'),
+    url('../fonts/social_media.ttf') format('truetype'),
+    url('../fonts/social_media.woff') format('woff'),
+    url('../fonts/social_media.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-sc-"], [class*=" icon-sc-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'social_media';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sc-wordpress:before {
+  content: "\e100";
+}
+.icon-sc-blogger:before {
+  content: "\e101";
+}
+.icon-sc-instagram:before {
+  content: "\e102";
+}
+.icon-sc-tiktok:before {
+  content: "\e103";
+}

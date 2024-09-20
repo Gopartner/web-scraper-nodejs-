@@ -1,0 +1,496 @@
+.breadcrumbs {
+    padding: 30px 0 !important;
+  }
+
+  @media (min-width: 992px){
+    .col-md-9 {
+        width: 75%;
+        margin-top: -50px !important;
+    }
+
+}
+#content .panel-heading:nth-child(1), #content .panel-heading:nth-child(2) , #content .panel-heading:nth-child(3) ,#content .panel-heading:nth-child(4) ,#content .panel-heading:nth-child(5) ,#content .panel-heading:nth-child(6),#content .panel-heading:nth-child(7) {
+    margin-top: -64px;
+  }
+  .bank {
+      text-align: center;
+      width: 145px !important;
+      height: 94px !important;
+      padding: 0px !important;
+      background-color: rgba(0,0,0,0) !important;
+      border: none !important;
+      -webkit-border-radius: 0px !important;
+      -moz-border-radius: 0px !important;
+      -ms-border-radius: 0px !important;
+      -o-border-radius: 0px !important;
+      border-radius: 0px !important;
+      margin-left: 0px;
+  }
+
+  .owl-carousel.owl-theme.bankscroll{
+    margin-top: 20px
+  }
+  
+  .owl-wrapper .owl-item .bank .online.bca{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_online_bca.gif') 0px 0px no-repeat !important;
+  }
+  
+  .owl-wrapper .owl-item .bank .online.mandiri{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_online_mandiri.gif') 0px 0px no-repeat !important;
+  }
+  
+  .owl-wrapper .owl-item .bank .online.cimb{
+      width: 145px !important;
+      height: 94px !important;
+      background: url('../images/togelon_online_cimb.gif') 0px 0px no-repeat !important;
+  }
+  
+  .owl-wrapper .owl-item .bank .online.bri{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_online_bri.gif') 0px 0px no-repeat !important;
+  }
+  
+  .owl-wrapper .owl-item .bank .online.bni{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_online_bni.gif') 0px 0px no-repeat !important;
+  }
+  
+  .owl-wrapper .owl-item .bank .online.danamon{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_online_danamon.gif') 0px 0px no-repeat !important;
+  }
+  .owl-wrapper .owl-item .bank .online.dana{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_online_dana.gif') 0px 0px no-repeat !important;
+  }
+  .owl-wrapper .owl-item .bank .online.gopay{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_online_gopay.gif') 0px 0px no-repeat !important;
+  }
+
+  .owl-wrapper .owl-item .bank .online.panin{
+    width: 145px !important;
+      height: 94px !important;
+    background: url('../images/togelon_online_panin.gif') 0px 0px no-repeat !important;
+    }
+  
+  .owl-wrapper .owl-item .bank .offline.panin{
+    width: 145px !important;
+      height: 94px !important;
+    background: url('../images/togelon_offline_panin.gif') 0px 0px no-repeat !important;
+    }
+  
+  .owl-wrapper .owl-item .bank .trouble.panin {
+    width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_trouble_panin.gif') 0px 0px no-repeat !important;
+  }
+
+  .owl-wrapper .owl-item .bank .online.ovo{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_online_ovo.gif') 0px 0px no-repeat !important;
+  }
+  .owl-wrapper .owl-item .bank .online.linkaja{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_online_linkaja.gif') 0px 0px no-repeat !important;
+  }
+  
+  
+  .owl-wrapper .owl-item .bank .offline.bca{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_offline_bca.gif') 0px 0px no-repeat !important;
+  }
+  
+  .owl-wrapper .owl-item .bank .offline.mandiri{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_offline_mandiri.gif') 0px 0px no-repeat !important;
+  }
+  
+  .owl-wrapper .owl-item .bank .offline.cimb{
+      width: 145px !important;
+      height: 94px !important;
+      background: url('../images/togelon_offline_cimb.gif') 0px 0px no-repeat !important;
+  }
+  
+  .owl-wrapper .owl-item .bank .offline.bri{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_offline_bri.gif') 0px 0px no-repeat !important;
+  }
+  
+  .owl-wrapper .owl-item .bank .offline.bni{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_offline_bni.gif') 0px 0px no-repeat !important;
+  }
+  
+  .owl-wrapper .owl-item .bank .offline.danamon{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_offline_danamon.gif') 0px 0px no-repeat !important;
+  }
+  .owl-wrapper .owl-item .bank .offline.dana{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_offline_dana.gif') 0px 0px no-repeat !important;
+  }
+  .owl-wrapper .owl-item .bank .offline.gopay{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_offline_gopay.gif') 0px 0px no-repeat !important;
+  }
+  .owl-wrapper .owl-item .bank .offline.ovo{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_offline_ovo.gif') 0px 0px no-repeat !important;
+  }
+  .owl-wrapper .owl-item .bank .offline.linkaja{
+  width: 145px !important;
+    height: 94px !important;
+  background: url('../images/togelon_offline_linkaja.gif') 0px 0px no-repeat !important;
+  }
+  
+  .owl-wrapper .owl-item .bank .trouble.bca {
+      width: 145px !important;
+      height: 94px !important;
+  background: url('../images/togelon_trouble_bca.gif') 0px 0px no-repeat !important;
+  }
+  
+  .owl-wrapper .owl-item .bank .trouble.mandiri {
+      width: 145px !important;
+      height: 94px !important;
+  background: url('../images/togelon_trouble_mandiri.gif') 0px 0px no-repeat !important;
+  }
+  
+  .owl-wrapper .owl-item .bank .trouble.cimb{
+      width: 145px !important;
+      height: 94px !important;
+      background: url('../images/togelon_trouble_cimb.gif') 0px 0px no-repeat !important;
+  }
+  
+  .owl-wrapper .owl-item .bank .trouble.bri {
+      width: 145px !important;
+      height: 94px !important;
+  background: url('../images/togelon_trouble_bri.gif') 0px 0px no-repeat !important;
+  }
+  
+  .owl-wrapper .owl-item .bank .trouble.bni {
+      width: 145px !important;
+      height: 94px !important;
+  background: url('../images/togelon_trouble_bni.gif') 0px 0px no-repeat !important;
+  }
+  
+  .owl-wrapper .owl-item .bank .trouble.danamon {
+      width: 145px !important;
+      height: 94px !important;
+  background: url('../images/togelon_trouble_danamon.gif') 0px 0px no-repeat !important;
+  }
+  .owl-wrapper .owl-item .bank .trouble.dana {
+      width: 145px !important;
+      height: 94px !important;
+  background: url('../images/togelon_trouble_dana.gif') 0px 0px no-repeat !important;
+  }
+  .owl-wrapper .owl-item .bank .trouble.gopay {
+      width: 145px !important;
+      height: 94px !important;
+  background: url('../images/togelon_trouble_gopay.gif') 0px 0px no-repeat !important;
+  }
+  .owl-wrapper .owl-item .bank .trouble.ovo {
+      width: 145px !important;
+      height: 94px !important;
+  background: url('../images/togelon_trouble_ovo.gif') 0px 0px no-repeat !important;
+  }
+  .owl-wrapper .owl-item .bank .trouble.linkaja {
+      width: 145px !important;
+      height: 94px !important;
+  background: url('../images/togelon_trouble_linkaja.gif') 0px 0px no-repeat !important;
+  }
+
+  .owl-wrapper .owl-item .bank .online.bsi {
+    width: 145px !important;
+    height: 94px !important;
+background: url('../images/togelon_online_bsi.gif') 0px 0px no-repeat !important;
+}
+.owl-wrapper .owl-item .bank .offline.bsi {
+    width: 145px !important;
+    height: 94px !important;
+background: url('../images/togelon_offline_bsi.gif') 0px 0px no-repeat !important;
+}
+.owl-wrapper .owl-item .bank .trouble.bsi {
+    width: 145px !important;
+    height: 94px !important;
+background: url('../images/togelon_trouble_bsi.gif') 0px 0px no-repeat !important;
+}
+
+.owl-wrapper .owl-item .bank .online.jago {
+    width: 145px !important;
+    height: 94px !important;
+background: url('../images/togelon-jago-online.gif') 0px 0px no-repeat !important;
+}
+.owl-wrapper .owl-item .bank .offline.jago {
+    width: 145px !important;
+    height: 94px !important;
+background: url('../images/togelon-jago-offline.gif') 0px 0px no-repeat !important;
+}
+.owl-wrapper .owl-item .bank .trouble.jago {
+    width: 145px !important;
+    height: 94px !important;
+background: url('../images/togelon-jago-trouble.gif') 0px 0px no-repeat !important;
+}
+
+.owl-wrapper .owl-item .bank .online.maybank {
+    width: 145px !important;
+    height: 94px !important;
+background: url('../images/togelon_online_maybank.gif') 0px 0px no-repeat !important;
+}
+.owl-wrapper .owl-item .bank .offline.maybank {
+    width: 145px !important;
+    height: 94px !important;
+background: url('../images/togelon_offline_maybank.gif') 0px 0px no-repeat !important;
+}
+.owl-wrapper .owl-item .bank .trouble.maybank {
+    width: 145px !important;
+    height: 94px !important;
+background: url('../images/togelon_trouble_maybank.gif') 0px 0px no-repeat !important;
+}
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(1) { 
+    content:url("../images/togelon_singapore.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(2) { 
+    content:url("../images/togelon_hongkong.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(3) { 
+    content:url("../images/togelon_sydney.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(4) { 
+    content:url("../images/togelon_nevada.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(5) { 
+    content:url("../images/togelon_cambodia.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(6) { 
+    content:url("../images/togelon_bullseye_1.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(7) { 
+    content:url("../images/togelon_magnum4d.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(8) { 
+    content:url("../images/togelon_carolina.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(9) { 
+    content:url("../images/togelon_pcso.png") !important;
+  }
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(10) { 
+    content:url("../images/togelon_california.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(11) { 
+    content:url("../images/togelon_florida.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(12) { 
+    content:url("../images/togelon_newyork.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(13) { 
+    content:url("../images/togelon_oregon.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(14) { 
+    content:url("../images/togelon_kentucky.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(15) { 
+    content:url("../images/togelon_totomacau.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(16) { 
+    content:url("../images/togelon_sicbodice.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(17) { 
+    content:url("../images/togelon_12d.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(18) { 
+    content:url("../images/togelon_dice6.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(19) { 
+    content:url("../images/togelon_24d.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(20) { 
+    content:url("../images/togelon_24spin.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(21) { 
+    content:url("../images/togelon_roullete.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(22) { 
+    content:url("../images/togelon_baccarat.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(23) { 
+    content:url("../images/togelon_pokerdice.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(24) { 
+    content:url("../images/togelon_suwit.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(25) { 
+    content:url("../images/togelon_red_white.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(26) { 
+    content:url("../images/togelon_dragontiger.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(27) { 
+    content:url("../images/togelon_oglok_1.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(28) { 
+    content:url("../images/togelon_idn4stand.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(29) { 
+    content:url("../images/togelon_sicboball.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(30) { 
+    content:url("../images/togelon_headandtail.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(31) { 
+    content:url("../images/togelon_monopoly.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(32) { 
+    content:url("../images/togelon_5dball.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(33) { 
+    content:url("../images/togelon_gongball.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(34) { 
+    content:url("../images/togelon_billiard.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(35) { 
+    content:url("../images/togelon_3dshio.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(36) { 
+    content:url("../images/togelon_raceball.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(37) { 
+    content:url("../images/togelon_fantan.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(38) { 
+    content:url("../images/togelon_niuniu.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(39) { 
+    content:url("../images/togelon_48D.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(40) { 
+    content:url("../images/togelon_habanero.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(41) { 
+    content:url("../images/togelon_idnslot.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(42) { 
+    content:url("../images/togelon_microgaming.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(43) { 
+    content:url("../images/togelon_pgsoft.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(44) { 
+    content:url("../images/togelon_pragmatic.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(45) { 
+    content:url("../images/togelon_toptrend.png") !important;
+  }
+
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(46) { 
+    content:url("../images/togelon_bingosicbo.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(47) { 
+    content:url("../images/togelon_oglok.png") !important;
+  }
+
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(48) { 
+    content:url("../images/togelon_bangkok.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(49) { 
+    content:url("../images/togelon_brunei.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(50) { 
+    content:url("../images/togelon_bullseye.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(51) { 
+    content:url("../images/togelon_chelsea.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(52) { 
+    content:url("../images/togelon_huahin.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(53) { 
+    content:url("../images/togelon_poipet.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(54) { 
+    content:url("../images/togelon_comingsoon.png") !important;
+  }
+
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(55) { 
+    content:url("../images/togelon_comingsoon.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(56) { 
+    content:url("../images/togelon_comingsoon.png") !important;
+  }
+  
+  .gameicon .owl-wrapper-outer .owl-wrapper .owl-item:nth-child(57) { 
+    content:url("../images/togelon_comingsoon.png") !important;
+  }
+  

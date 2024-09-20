@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Flexbox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Belajar Flexbox</h1>
+        <p>Panduan dasar untuk memahami Flexbox di CSS.</p>
+    </header>
+    <main>
+        <section id="section1">
+            <h2>1. Flex Container</h2>
+            <p>Untuk menggunakan Flexbox, kita harus mengatur elemen induk sebagai kontainer flex dengan properti <code>display: flex;</code>.</p>
+            <div class="container">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+            </div>
+        </section>
+        
+        <section id="section2">
+            <h2>2. justify-content: space-around</h2>
+            <p>Mengatur elemen dalam kontainer untuk memiliki ruang yang sama di sekeliling mereka.</p>
+            <div class="container space-around">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+            </div>
+        </section>
+        
+        <section id="section3">
+            <h2>3. justify-content: space-between</h2>
+            <p>Mengatur elemen dalam kontainer untuk memiliki ruang yang sama di antara mereka.</p>
+            <div class="container space-between">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+            </div>
+        </section>
+        
+        <section id="section4">
+            <h2>4. align-items: center</h2>
+            <p>Mengatur elemen dalam kontainer untuk disejajarkan secara vertikal di tengah kontainer.</p>
+            <div class="container align-center">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+            </div>
+        </section>
+        
+        <section id="section5">
+            <h2>5. flex-direction: column</h2>
+            <p>Mengatur elemen dalam kontainer untuk disejajarkan dalam kolom daripada baris.</p>
+            <div class="container column">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Belajar Flexbox</p>
+    </footer>
+</body>
+</html>
+
