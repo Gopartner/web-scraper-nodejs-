@@ -1,7 +1,16 @@
-# results/*
+# Folder yang tidak mau di-track
+node_modules/
+dist/
+build/
 
-node_modules
-
+# File environment
 .env
 
+# Cache log/temp
+*.log
+*.tmp
+
+# File OS
+.DS_Store
+Thumbs.db
 
